@@ -4,7 +4,11 @@
 name: Java CI with Maven
 
 
+<<<<<<< HEAD
 on: [push,pull_request]
+=======
+on: [push, pull_request]
+>>>>>>> d7b581bad09796098d8d9c3851a9e820fe394949
 
 jobs:
   build:
@@ -18,4 +22,8 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: Build with Maven
+<<<<<<< HEAD
       run: mvn -B -e verify
+=======
+      run: mvn -B -e verify   
+>>>>>>> d7b581bad09796098d8d9c3851a9e820fe394949
